@@ -1,0 +1,263 @@
+/* Theme */
+
+.theme-dark {
+  background-image: url("https://cdn.discordapp.com/attachments/524558580419133480/669855018664329216/rory-mercury-wallpaper-hd-1600x900-409015.png");
+    background-size: cover;
+    background-position: center;
+  --background-primary: rgba(0, 0, 0, 0);
+  --background-secondary: rgba(0, 0, 0, 0.2);
+  --background-tertiary: rgba(0, 0, 0, 0.4);
+  --background-accent: rgba(0, 0, 0, 0.25);
+  --background-floating: rgba(56, 56, 56, 0.4);
+  --background-mobile-header: rgba(0, 0, 0, 0.5);
+
+  --background-modifier-hover: rgba(64, 64, 64, 0.25);
+  --background-modifier-active: rgba(68, 68, 68, 0.5);
+  --background-modifier-selected: rgba(68, 68, 68, 0.25);
+  --background-modifier-accent: rgba(132, 132, 132, 0.42);
+
+  --deprecated-panel-background: var(--background-secondary);
+  --channeltextarea-background: var(--background-tertiary);
+}
+
+/* From circuit */
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    border: none !important;
+    width:0px !important;
+}
+::-webkit-scrollbar-thumb{
+    width:0px !important;
+    border-radius: 0px !important;
+} 
+/* You made my job way easier lmao */
+
+.theme-dark .container-3gCOGc {
+    background-color: transparent;
+}
+
+/* SNIPPETS */
+
+
+/* Rainbow Mention */
+@keyframes rainbow {
+    from {filter: hue-rotate(0deg);}
+    to {filter: hue-rotate(360deg);}
+}
+
+.mention, .wrapper-3WhCwL {
+    background: rgba(0, 200, 255, 0) !important;
+    color: #00e5ff !important;
+    border-color: #00e5ff !important;
+    animation: rainbow 4s infinite linear !important;
+}
+
+
+
+/* Remove help button */
+svg[name="Nova_Help"] {
+    display: none;
+}
+.pc-iconWrapper {
+    margin: 0;
+}
+.pc-iconWrapper svg {
+    margin: 0px 0px;
+}
+
+
+
+/* Smaller mobile presence indicator */
+rect[mask="url(#svg-mask-status-online-mobile)"] {
+	width: 8px;
+	height: 12px;
+	x: 24;
+	y: 19;
+}
+
+mask#svg-mask-avatar-status-mobile-32 rect {
+	width: 0.35px;
+	x: 0.67;
+	y: 0.5;
+}
+
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
+	fill: #43b581;
+	width: 16px;
+	height: 24px;
+	x: 60;
+	y: 52;
+}
+
+/* Old status indicators */
+.header-QKLPzZ rect[mask="url(#svg-mask-status-online)"], .userPopout-3XzG_A rect[mask="url(#svg-mask-status-online)"] {
+	fill: #43b581;
+}
+
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"] {
+  fill: #f04747;
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"]{
+    mask: url(#svg-mask-status-online);
+}
+
+
+
+/* Remove (edited) from messages */
+.edited-DL9ECl {
+  display: none;
+}
+
+
+
+/* Jumbo Emoji */
+:root{
+  --SizeEmojiHovered: 75px;
+  --TransitionDuration: 200ms;
+  --TransitionDelay: 1000ms;
+}
+
+.emoji{
+  transition: all var(--TransitionDuration) var(--TransitionDelay);
+}
+
+.emoji:hover{
+  width: var(--SizeEmojiHovered)!important;
+  height: var(--SizeEmojiHovered)!important;
+}
+
+/* Make quotes look like embeds */
+.theme-dark .blockquoteContainer-U5TVEi blockquote {
+    background-color: #33353c;
+    border-color: #303237;
+}
+.theme-light .blockquoteContainer-U5TVEi blockquote {
+    background-color: #fdfdfd;
+    border-color: #eee;
+}
+.blockquoteContainer-U5TVEi blockquote {
+    border: 1px solid;
+    border-radius: 0px 4px 4px 0px;
+    padding: 6px 10px 7px;
+}
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    border-radius: 4px 0px 0px 4px;
+}
+
+
+
+/* Lined Categories */
+.scroller-2FKFPG {
+  position: relative;
+}
+.containerDefault-3GGEv_::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  background: #55595f;
+  height: 1.1px;
+  left: 6px;
+  right: 0px;
+  z-index: -1;
+}
+.containerDefault-3GGEv_ {
+  display: flex;
+  align-items: center;
+}
+.containerDefault-3GGEv_ > * {
+  background: #2f3136;
+  margin: 0 auto;
+}
+
+
+
+/* Colored wumpus images */
+
+
+/* FRIENDS TAB */
+
+/* All-Online */
+.image-1GzsFd[style*='background-image: url("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/All-Friends.svg') !important;
+  background-size: cover;
+}
+
+/* Pending */
+.image-1GzsFd[style*='background-image: url("/assets/b669713872b43ca42333264abf9c858e.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/pending.svg') !important;
+  background-size: cover;
+}
+
+
+/* Blocked */
+.image-1GzsFd[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/Blocked.svg') !important;
+  background-size: cover;
+}
+
+/* Library Tab */
+.theme-dark .emptyWumpus-12J3jI{
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
+  background-size: cover;
+}
+.theme-dark .emptyStateImage-2eMp68{
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
+  background-size: cover;
+}
+
+
+
+/* Bigger message dividers */
+.dividerContent-2L12VI::before {
+    display: none;
+}
+
+.dividerContent-2L12VI {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 8px 0;
+    color: var(--header-primary);
+}
+
+.dividerRed-MKoLlr .dividerContent-2L12VI {
+    color: #f04747;
+}
+
+
+
+
+/* Remove timestamp modal thing */
+.timestampCompact-MHgFLv, .timestampCozy-2hLAPV{
+    pointer-events: none;
+}
+
+/* Clean status select */
+.menu-Sp6bN1 .separator-2zcjq8/*, .statusItem-2uzPIV .helper-2c73HK*/ {
+    display: none;
+}
+
+
+/* Improved guild modal */
+.guildNameText-74xXQn {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* animate users */
+div.layout-2DM8Md:hover {
+    transition: all 0.3s ease;
+    transform: translateX(-0.5em);
+    border-right: solid 0.5em #7289da;
+    border-bottom: solid 1px black;
+}
+div.layout-2DM8Md {
+    transition: all 0.3s ease;
+    transform: translateX(0em);
+    border-right: solid 0px #7289da;
+    border-bottom: solid 0px black;
+}
