@@ -11,9 +11,9 @@
   --background-floating: rgba(56, 56, 56, 0.4);
   --background-mobile-header: rgba(0, 0, 0, 0.5);
 
-  --background-modifier-hover: rgba(64, 64, 64, 0.25);
-  --background-modifier-active: rgba(68, 68, 68, 0.5);
-  --background-modifier-selected: rgba(68, 68, 68, 0.25);
+  --background-modifier-hover: rgba(198, 53, 62, 0.1);
+  --background-modifier-active: rgba(198, 53, 62, 0.25);
+  --background-modifier-selected: rgba(198, 53, 62, 0.4);
   --background-modifier-accent: rgba(132, 132, 132, 0.42);
 
   --deprecated-panel-background: var(--background-secondary);
@@ -32,6 +32,10 @@
     border-radius: 0px !important;
 } 
 /* You made my job way easier lmao */
+
+div[class^="uploadModal"] > div[class^="inner"], div[class^="inner"] > div[class^="uploadModal"], div[class^="uploadModal"] > div[class^="footer"] {
+    background-color: var(--background-primary);
+}
 
 .theme-dark .container-3gCOGc {
     background-color: transparent;
