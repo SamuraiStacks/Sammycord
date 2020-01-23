@@ -37,6 +37,18 @@ div[class^="uploadModal"] > div[class^="inner"], div[class^="inner"] > div[class
     background-color: var(--background-primary);
 }
 
+div[class^="textArea-12jD-V textAreaSlate-1ZzRVj slateContainer-3Qkn2x"] {
+  background-color: rgba(198, 53, 62, 0.25);
+}
+
+.buttons-3JBrkn {
+  background-color: rgba(198, 53, 62, 0.25);
+}
+
+.attachWrapper-2TRKBi {
+  background-color: rgba(198, 53, 62, 0.25);
+}
+
 .theme-dark .container-3gCOGc {
     background-color: transparent;
 }
