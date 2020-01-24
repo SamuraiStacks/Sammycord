@@ -133,6 +133,15 @@ div[class^="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-
 .header-2o-2hj:hover {
   background-color: rgb(180, 52, 78, 0.1) !important;
 }
+
+.modal-yWgWj- {
+  background-color: transparent !important;
+}
+
+.flex-11xMQg5 {
+  background-color: transparent !important;
+}
+
 /* Snippets */
 
 /* Remove help button */
@@ -212,12 +221,12 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
 
 /* Make quotes look like embeds */
 .theme-dark .blockquoteContainer-U5TVEi blockquote {
-    background-color: #33353c;
-    border-color: #303237;
+    background-color: transparent;
+    border-color: rgba(198, 53, 62);
 }
 .theme-light .blockquoteContainer-U5TVEi blockquote {
-    background-color: #fdfdfd;
-    border-color: #eee;
+    background-color: transparent;
+    border-color: rgb(198, 53, 62);
 }
 .blockquoteContainer-U5TVEi blockquote {
     border: 1px solid;
@@ -225,6 +234,7 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
     padding: 6px 10px 7px;
 }
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    background-color: rgba(198, 53, 62);
     border-radius: 4px 0px 0px 4px;
 }
 
