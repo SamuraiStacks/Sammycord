@@ -1,5 +1,6 @@
 /* Theme */
 
+/* General theme itself, should change most things */
 .theme-dark {
   background-image: url("https://cdn.discordapp.com/attachments/524558580419133480/669855018664329216/rory-mercury-wallpaper-hd-1600x900-409015.png");
     background-size: cover;
@@ -37,20 +38,62 @@ div[class^="uploadModal"] > div[class^="inner"], div[class^="inner"] > div[class
     background-color: var(--background-primary);
 }
 
-div[class^="textArea-12jD-V textAreaSlate-1ZzRVj slateContainer-3Qkn2x"] {
-  background-color: rgba(198, 53, 62, 0.25);
-}
-
-.buttons-3JBrkn {
-  background-color: rgba(198, 53, 62, 0.25);
-}
-
-.attachWrapper-2TRKBi {
+.inner-MADQqc {
   background-color: rgba(198, 53, 62, 0.25);
 }
 
 .theme-dark .container-3gCOGc {
-    background-color: transparent;
+  background-color: transparent;
+}
+
+.wrapper-1Rf91z {
+  background-color: rgba(198, 53, 62, 0.1);
+}
+
+.menu-Sp6bN1 {
+  background-color: #280A10;
+}
+
+div.iconVisibility-1yaA_k {
+  background-color: transparent;
+}
+
+.wrapper-3UweLa {
+  background-color: rgba(198, 53, 62, 0.4);
+}
+
+.circleIconButton-jET_ig {
+  color: rgba(198, 53, 62);
+}
+
+.circleIconButton-jET_ig:hover {
+  background-color: rgba(198, 53, 62);
+}
+
+.childWrapper-anI2G9 {
+  color: #ffffff;
+}
+
+.childWrapper-anI2G9:hover {
+  color: #ffffff !important;
+  background-color: rgba(198, 53, 62) !important;
+}
+
+.acronym-2mOFsV {
+  color: #ffffff;
+}
+
+.contextMenu-HLZMGh {
+  background-color: rgba(40, 10, 16, 0.92);
+}
+
+div[class^="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 root-SR8cQa"] {
+  color: #ffffff;
+  background-color: rgba(180, 52, 78, 0.8);
+}
+
+.unreadBar-3YD_k9 {
+  background-color: rgba(180, 52, 78);
 }
 
 /* SNIPPETS */
@@ -166,20 +209,11 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
 
 
 
-/* Lined Categories */
+/* Centered Categories */
 .scroller-2FKFPG {
   position: relative;
 }
-.containerDefault-3GGEv_::after {
-  content: "";
-  position: absolute;
-  top: 28px;
-  background: #55595f;
-  height: 1.1px;
-  left: 6px;
-  right: 0px;
-  z-index: -1;
-}
+
 .containerDefault-3GGEv_ {
   display: flex;
   align-items: center;
@@ -187,7 +221,7 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
 .containerDefault-3GGEv_ > * {
   background: #2f3136;
   margin: 0 auto;
-}
+} 
 
 
 
@@ -268,12 +302,12 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] + rect {
 div.layout-2DM8Md:hover {
     transition: all 0.3s ease;
     transform: translateX(-0.5em);
-    border-right: solid 0.5em #7289da;
+    border-right: solid 0.5em #C63552;
     border-bottom: solid 1px black;
 }
 div.layout-2DM8Md {
     transition: all 0.3s ease;
     transform: translateX(0em);
-    border-right: solid 0px #7289da;
+    border-right: solid 0px #C63552;
     border-bottom: solid 0px black;
 }
