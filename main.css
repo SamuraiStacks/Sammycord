@@ -1,7 +1,7 @@
 /* Theme */
 
 /* General theme itself, should change most things */
-.theme-dark {
+.theme-dark #app-mount {
   background-image: url("https://cdn.discordapp.com/attachments/524558580419133480/669855018664329216/rory-mercury-wallpaper-hd-1600x900-409015.png");
     background-size: cover;
     background-position: center;
@@ -140,6 +140,16 @@ div[class^="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-
 
 .flex-11xMQg5 {
   background-color: transparent !important;
+}
+
+div[class^="wrapper-6URcxg"] {
+  background-image: url("https://cdn.discordapp.com/attachments/524558580419133480/669855018664329216/rory-mercury-wallpaper-hd-1600x900-409015.png");
+  background-size: cover;
+  background-position: absolute;
+}
+
+.authBox-hW6HRx {
+  background-color: rgba(198, 52, 78, 0.6);
 }
 
 /* Snippets */
