@@ -126,6 +126,13 @@ div[class^="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-
   opacity: 0.75 !important;
 }
 
+.header-2o-2hj {
+  background-color: transparent !important;
+}
+
+.header-2o-2hj:hover {
+  background-color: rgb(180, 52, 78, 0.1) !important;
+}
 /* Snippets */
 
 /* Remove help button */
