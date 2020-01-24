@@ -96,23 +96,33 @@ div[class^="flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-
   background-color: rgba(180, 52, 78);
 }
 
-/* SNIPPETS */
-
-
-/* Rainbow Mention */
-@keyframes rainbow {
-    from {filter: hue-rotate(0deg);}
-    to {filter: hue-rotate(360deg);}
-}
-
 .mention, .wrapper-3WhCwL {
     background: rgba(0, 200, 255, 0) !important;
-    color: #00e5ff !important;
+    color: rgb(180, 52, 78) !important;
     border-color: #00e5ff !important;
-    animation: rainbow 4s infinite linear !important;
 }
 
+.autocompleteInner-zh20B_ {
+  background-color: transparent !important;
+}
 
+.pageWrapper-1PgVDX {
+  background-color: transparent !important;
+}
+
+.searchBox-3Y2Vi7 {
+  background-color: rgb(180, 52, 78, 0.25) !important;
+}
+
+.css-1wqqa50-container {
+  background-color: rgb(180, 52, 78, 0.25) !important;
+}
+
+.bg-AYqtMd {
+  opacity: 0 !important;
+}
+
+/* Snippets */
 
 /* Remove help button */
 svg[name="Nova_Help"] {
